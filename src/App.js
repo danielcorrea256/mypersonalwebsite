@@ -9,8 +9,9 @@ function App() {
           <div>
             <h3 className="float-md-start mb-0">my webpage</h3>
             <nav className="nav nav-masthead justify-content-center float-md-end">
-              <a className="nav-link fw-bold py-1 px-0 active" aria-current="page" href={""}>Home</a>
-              <a className="nav-link fw-bold py-1 px-0" href={"https://www.linkedin.com/in/danielcorrea256/"}>Linkedin</a>
+              <a className="nav-link fw-bold active text-white" aria-current="page" href={""}>Home</a>
+              <a className="nav-link fw-bold text-white" href={"https://www.linkedin.com/in/danielcorrea256/"}>Linkedin</a>
+              <a className="nav-link fw-bold text-white" href={"https://github.com/fernandocorrea256"}>GitHub</a>
             </nav>
           </div>
         </header>
@@ -18,9 +19,9 @@ function App() {
         <main className="px-3">
           <h1>Welcome to my webpage</h1>
           <p className="lead">My name is Daniel Fernando Correa and I currently work as DevSecOps Engineer at Tiresia Soluciones Tecnologicas SAS</p>
-          <p className="lead">
+          {/* <p className="lead">
             <a href="#" className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark">Idk</a>
-          </p>
+          </p> */}
         </main>
       
         <footer className="mt-auto text-white-50">
