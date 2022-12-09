@@ -7,9 +7,15 @@ pipeline {
       }
     }
 
-    stage('Hello World') {
+    stage('Build') {
       steps {
-        echo 'Hello World'
+        sh 'npm install'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh 'npm test -- --watchAll=false'
       }
     }
 
