@@ -23,6 +23,5 @@ pipeline {
         sh 'npm test -- --watchAll=false'
       }
     }
-
   }
 }
